@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#b2c5c4</color>
+    <color name="colorPrimaryDark">#cdced2</color>
+    <color name="colorAccent">#6a8ac3</color>
+
+
+    <color name="colorHyperlink">#0b24fb</color>
+
+
+    <color name="colorButton">#b2c5c4</color>
+    <color name="colorList">#eef3f9</color>
+    <color name="colorLightBackground">#eef3f9</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorSecondaryDark">#6c6f72</color>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Sorting">
+        <menu>
+            <item
+                android:id="@+id/action_sort_date"
+                android:title="Sort by Date"/>
+
+            <item
+                android:id="@+id/action_sort_distance"
+                android:title="Sort by Distance"/>
+        </menu>
+    </item>
+
+</menu>

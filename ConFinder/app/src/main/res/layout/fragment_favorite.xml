@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorList"
+    tools:context=".fragments.FavoriteFragment">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="64dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="7.5"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:id="@+id/fav_search_et"
+            android:background="@color/colorWhite"
+            android:hint="Enter Keyword"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:text="Search"
+            android:layout_height="wrap_content"
+            android:id="@+id/fav_search_btn"/>
+
+    </LinearLayout>
+
+
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <ViewStub
+        android:id="@android:id/empty"
+        android:layout="@layout/stub_empty_favs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>

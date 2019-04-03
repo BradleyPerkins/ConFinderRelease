@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorList"
+    tools:context=".fragments.ConListFragment">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="64dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:imeOptions="actionSearch"
+            android:inputType="textPersonName"
+            android:id="@+id/search_et"
+            android:background="@color/colorWhite"
+            android:hint="Search Cons"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@color/colorWhite"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_search"
+            android:layout_height="match_parent"
+            android:id="@+id/search_btn"
+            android:contentDescription="search" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:paddingBottom="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <ViewStub
+        android:id="@android:id/empty"
+        android:layout="@layout/stub_empty_state"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>

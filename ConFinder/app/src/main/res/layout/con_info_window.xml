@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/marker_window_layout"
+    android:background="@color/colorWhite"
+    android:elevation="4dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/marker_banner_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/ban" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/con_name"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:ellipsize="marquee"
+            android:id="@+id/marker_name_tv"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/marker_info_tv"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="@string/con_info"
+            android:textSize="18sp"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

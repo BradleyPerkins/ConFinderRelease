@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "848861504841",
+    "firebase_url": "https://comic-shop-finder.firebaseio.com",
+    "project_id": "comic-shop-finder",
+    "storage_bucket": "comic-shop-finder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848861504841:android:a42c4a019b603dbd",
+        "android_client_info": {
+          "package_name": "com.angryweaselstudios.comicshopfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848861504841-80i5204922e89l8lclt5q8d5olqvqsiq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.angryweaselstudios.comicshopfinder",
+            "certificate_hash": "2fd14a547383f0b1941857a0f56d6444c40ee88e"
+          }
+        },
+        {
+          "client_id": "848861504841-2420v4rbt32mpa2lphf8bcbon15uvi9g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1sTwzcfTgcyBh4jGH3ozyaKk6xS8WdT4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848861504841-2420v4rbt32mpa2lphf8bcbon15uvi9g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848861504841:android:aca3c0b08592194f",
+        "android_client_info": {
+          "package_name": "com.bradperkins.confinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848861504841-b495ohjsdku4vai5jikb4modt5qdfj8d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bradperkins.confinder",
+            "certificate_hash": "2fd14a547383f0b1941857a0f56d6444c40ee88e"
+          }
+        },
+        {
+          "client_id": "848861504841-2420v4rbt32mpa2lphf8bcbon15uvi9g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1sTwzcfTgcyBh4jGH3ozyaKk6xS8WdT4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848861504841-2420v4rbt32mpa2lphf8bcbon15uvi9g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

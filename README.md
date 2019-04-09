@@ -2,7 +2,7 @@
 
 Con Finder is an app that displays a list of conventions for the users to search through and see information about the upcoming cons across the US. It was made to be the central hub for Comic Convention enthusiast to visit in order to see the many cons.
 
-This app makes use of the Camera and Gallery for adding images, Firebase, User Location/GPS coordinates, as well as User Authentication through Firebase.
+This app makes use of the Camera and Gallery for adding images, Firebase, User Location/GPS coordinates, as well as User Authentication through Firebase. Con Finder also allows to user to comment and communicate with eachother on the app.
 
 ## Features
 • List of cons pulled from Firebase

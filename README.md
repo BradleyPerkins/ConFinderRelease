@@ -36,6 +36,6 @@
 {\listtext	\uc0\u8226 	}Admin capabilities that will allow the Admin to edit Cons and see when new cons are added.\
 {\listtext	\uc0\u8226 	}View Cons plotted on a Map\
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf0 \
+\cf0  \
 \
 }

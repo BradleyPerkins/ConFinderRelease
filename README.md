@@ -1,8 +1,4 @@
-# Project Title
-
-Con Finder
-
-## Getting Started
+# Con Finder
 
 Con Finder is an app that displays a list of conventions for the users to search through and see information about the upcoming cons across the US. It was made to be the central hub for Comic Convention enthusiast to visit in order to see the many cons.
 

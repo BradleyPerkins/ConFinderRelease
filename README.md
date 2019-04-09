@@ -4,7 +4,7 @@ Con Finder is an app that displays a list of conventions for the users to search
 
 This app makes use of the Camera and Gallery for adding images, Firebase, User Location/GPS coordinates, as well as User Authentication through Firebase.
 
-##Features
+## Features
 • List of cons pulled from Firebase
 
 • Searchable list by zip code and of keywords entered in the search bar.
